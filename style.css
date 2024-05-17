@@ -1,0 +1,216 @@
+.body {
+  font-family: sans-serif;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.logo {
+  height: 30px;
+  width: 30px;
+ margin: 5px;
+
+}
+
+.index {
+  margin: 20px;
+
+}
+.index li {
+  display: inline;
+  margin: 20px;
+  font-size: 15px;
+  justify-content: space-between;
+  position: relative;
+ 
+}
+.index li:hover{
+  background-color: aliceblue;
+
+}
+.index li:hover .dropdown{
+  display: block;
+}
+.index a{
+  text-decoration: none;
+  color: black;
+
+}
+.index1 li {
+  display: inline;
+  margin: 14px;
+  font-size: 15px;
+ 
+}
+.dropdown{
+  position: absolute;
+  left: 0;
+  background-color: rgb(238, 241, 244);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  display: none;
+  margin-top: 5px;
+  z-index: 10;
+}
+
+.dropdown li{
+  display: block;
+}
+.help-dropdown:hover .drpdown{
+  display: block;
+
+}
+
+a{
+  text-decoration: none;
+ 
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+
+  
+ 
+  
+
+}
+.btn input{
+  border-radius:10px ;
+  height: 60%;
+  
+ 
+
+  
+  
+}
+
+video{
+  height: 450px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.language{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+
+}
+h5{
+  text-align: center;
+  font-size: 20px;
+
+
+}
+.bt{
+  
+ text-align: center;
+ 
+}
+.bt input{
+  border-radius:10px ;
+  height: 40px;
+  width: 10%;
+  background-color: black;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: medium;
+  
+}
+.container {
+  display: grid ;
+  grid-template-columns: auto auto;
+  
+  
+  margin-top: 30px;
+}
+.container img{
+  height: 100%;
+  width: 100%;
+  
+}
+.con{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+  text-align: center;
+  font-size: large;
+
+}
+.con input{
+  border-radius: 10px;
+  height: 30px;
+  width: 70px;
+  font-size: medium;
+}
+.con input:hover{
+  background-color: black;
+  color: aliceblue;
+}
+.img-com{
+  position: relative;
+}
+
+ 
+.row1{
+  display: flex;
+  justify-content: start;
+  background-color: black;
+  color: white;
+}
+.comm{
+  margin: 24px;
+
+}
+.co li{
+  list-style-type: none;
+  left: 20px;
+}
+
+.row2 li{
+  text-decoration: none;
+}
+
+
+
+.toggler:active{
+  display:none;
+}
+
+@media screen and  (max-width: 625px) {
+  .full-container{
+    width: 100%;
+  }
+  .btn{
+    display: none;
+
+  }
+  
+  
+}
+.toggler{
+  display: none;
+}
+
+
+@media screen and (max-width:440px){
+  .full-container{
+    width: 100%;
+  }
+  .toggler{
+    display: inline;
+  }
+
+  .index li a{
+    display: none;
+    justify-content: space-around;
+  }
+  
+}
+
+
